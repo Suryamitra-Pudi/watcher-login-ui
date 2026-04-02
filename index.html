@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cyber Watcher Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="matrix"></canvas>
+
+<div class="container">
+
+  <h2>ACCESS SYSTEM</h2>
+
+  <div class="eyes">
+    <div class="eye">
+      <div class="eyelid"></div>
+      <div class="pupil"></div>
+    </div>
+    <div class="eye">
+      <div class="eyelid"></div>
+      <div class="pupil"></div>
+    </div>
+  </div>
+
+  <input type="text" placeholder="Username">
+
+  <div class="password-box">
+    <input type="password" id="password" placeholder="Password">
+    <span id="toggle">
+  <svg id="eyeIcon" width="20" height="20" viewBox="0 0 24 24" fill="#00ff00">
+    <path d="M12 5C7 5 2.73 8.11 1 12c1.73 3.89 6 7 11 7s9.27-3.11 11-7c-1.73-3.89-6-7-11-7zm0 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"/>
+  </svg>
+</span>
+  </div>
+
+  <div id="strength-text"></div>
+  <div class="bar-container">
+    <div id="strength-bar"></div>
+  </div>
+
+<button id="loginBtn">LOGIN</button>
+
+<p id="message"></p>
+
+<script src="script.js"></script>
+
+</body>
+</html>
